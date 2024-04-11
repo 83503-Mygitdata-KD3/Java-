@@ -2,7 +2,7 @@ package com.sunbeam;
 import java.util.Scanner;
 
 
-	public class HourlyEmployee extends Employee{
+	public class HourlyEmployee extends Employee {
 
 		private int wage;
 		private int hrs;
@@ -16,7 +16,9 @@ import java.util.Scanner;
 			System.out.println("Enter the hours worked : ");
 			this.hrs = sc.nextInt();
 		}
+		
 
+		
 		@Override
 		public void displayEmployee() {
 			System.out.println(this.toString()+"\n"+"Hourly Wage : "+wage+"\n"+"Hours Worked : "+hrs);	
