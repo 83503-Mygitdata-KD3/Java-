@@ -9,9 +9,11 @@ public class CountWordsOfString {
 		 
 		 System.out.println("enter a string :");
 		 str=sc.nextLine();
-		 String str1=str.trim();
+		// String str1=str.trim();
 		 
-		 String[] str2=str1.split(" ");
+		 String[] str2=str.split(" ");
+		 
+		 
 		 System.out.println("no of words in string :"+str2.length);
 
 	}

@@ -11,7 +11,7 @@ public class ReverseString {
 		System.out.println("enter a string :");
 		str=sc.next();
 		
-	
+//	StringBuilder str1=new StringBuilder(str).reverse();
 		
 		StringBuilder str1=new StringBuilder();
 		str1.append(str);
